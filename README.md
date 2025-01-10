@@ -2,6 +2,7 @@
 https://skoolfi-my.sharepoint.com/:w:/p/manojyadav/EVEpyJiQQCNDv2BdUapgIPYB7PcWXvooYLfvVdNZC7e9Gg?e=MiaHTh
 
 #Assignment
+
 Consider a database for a Video Cd shop. The Database maintains the details collections, members, transactions .Create the following tables: Collection, Member, and Transaction with the appropriate constraints and populate the created tables with the data given below.
 
 
@@ -89,6 +90,7 @@ c. List all the titles and the member names for transactions with issue date on 
 
 
 #Solutions
+
 create	table	collection(	
 cid varchar2(5)	check(cid like 'CD%'),
 title varchar(20) not null,
